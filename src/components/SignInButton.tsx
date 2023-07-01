@@ -26,7 +26,7 @@ const SignInButton: FC<SignInButtonProps> = ({}) => {
     }
   }
 
-  return <Button onClick={signInWithGoogle} isLoading={isLoading}>Sign In Button</Button>
+  return <Button onClick={signInWithGoogle} isLoading={isLoading}>Sign In</Button>
 }
 
 export default SignInButton
