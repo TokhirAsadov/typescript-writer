@@ -5,17 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6b57187-4fae-453e-be1c-3f5e50612f50" name="Changes" comment="documentation page has done successfully.">
-      <change afterPath="$PROJECT_DIR$/src/app/(docs)/documentation/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(docs)/documentation/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Code.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DocumentationTabs.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/Tabs.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/documentation-code.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(dashboard)/dashboard/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(dashboard)/dashboard/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ApiDashboard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CopyButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RequestApiKey.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/create-api-key.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/db.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/api/api-key/create.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/api/auth/[...nextauth].ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/api/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/next-auth.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignInButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignInButton.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,22 +49,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/app/frontend/typescript-writer/public",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editing.templates",
-    "ts.external.directory.path": "D:\\app\\frontend\\typescript-writer\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/app/frontend/typescript-writer/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\app\\frontend\\typescript-writer\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\app\frontend\typescript-writer\public" />
@@ -78,7 +86,17 @@
       <workItem from="1683607496874" duration="12084000" />
       <workItem from="1683625952413" duration="9192000" />
       <workItem from="1683711379269" duration="133000" />
-      <workItem from="1683719375079" duration="8767000" />
+      <workItem from="1683719375079" duration="8863000" />
+      <workItem from="1683755447054" duration="8577000" />
+      <workItem from="1683794923149" duration="56000" />
+      <workItem from="1683803299692" duration="12000" />
+      <workItem from="1683811089354" duration="734000" />
+      <workItem from="1683972290882" duration="1682000" />
+      <workItem from="1683975108754" duration="610000" />
+      <workItem from="1684011707739" duration="5093000" />
+      <workItem from="1684140848008" duration="27000" />
+      <workItem from="1684141265727" duration="6000" />
+      <workItem from="1688119403332" duration="6049000" />
     </task>
     <task id="LOCAL-00001" summary="add all dependencies">
       <created>1683609428136</created>
@@ -122,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683721579910</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="documentation page has done successfully.">
+      <created>1683729292754</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683729292754</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
