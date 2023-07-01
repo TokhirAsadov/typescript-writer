@@ -4,25 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6b57187-4fae-453e-be1c-3f5e50612f50" name="Changes" comment="documentation page has done successfully.">
-      <change afterPath="$PROJECT_DIR$/src/app/(dashboard)/dashboard/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(dashboard)/dashboard/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ApiDashboard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CopyButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RequestApiKey.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/Input.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/create-api-key.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/auth.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/db.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/api/api-key/create.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/api/auth/[...nextauth].ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/api/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/next-auth.d.ts" afterDir="false" />
+    <list default="true" id="b6b57187-4fae-453e-be1c-3f5e50612f50" name="Changes" comment="add auth changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignInButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignInButton.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +80,7 @@
       <workItem from="1684140848008" duration="27000" />
       <workItem from="1684141265727" duration="6000" />
       <workItem from="1688119403332" duration="6049000" />
+      <workItem from="1688225046993" duration="402000" />
     </task>
     <task id="LOCAL-00001" summary="add all dependencies">
       <created>1683609428136</created>
@@ -147,7 +131,91 @@
       <option name="project" value="LOCAL" />
       <updated>1683729292754</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add items">
+      <created>1688225144168</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688225144168</updated>
+    </task>
+    <task id="LOCAL-00009" summary="dashboard page build success">
+      <created>1688225226525</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688225226526</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add db configuration">
+      <created>1688225254548</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688225254548</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add next auth configuration">
+      <created>1688225273431</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1688225273431</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add authentication success">
+      <created>1688225311968</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688225311968</updated>
+    </task>
+    <task id="LOCAL-00013" summary="api dashboard page">
+      <created>1688225330976</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1688225330976</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add types">
+      <created>1688225352407</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1688225352407</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add prisma dependencies">
+      <created>1688225381955</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1688225381955</updated>
+    </task>
+    <task id="LOCAL-00016" summary="remove sentence">
+      <created>1688225404616</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1688225404616</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add new component">
+      <created>1688225432086</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1688225432086</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add auth section">
+      <created>1688225445495</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1688225445495</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add auth changes">
+      <created>1688225456763</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1688225456763</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +237,19 @@
     <MESSAGE value="good work for navbar" />
     <MESSAGE value="Home page has done successfully." />
     <MESSAGE value="documentation page has done successfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="documentation page has done successfully." />
+    <MESSAGE value="add items" />
+    <MESSAGE value="dashboard page build success" />
+    <MESSAGE value="add db configuration" />
+    <MESSAGE value="add next auth configuration" />
+    <MESSAGE value="add authentication success" />
+    <MESSAGE value="api dashboard page" />
+    <MESSAGE value="add types" />
+    <MESSAGE value="add prisma dependencies" />
+    <MESSAGE value="remove sentence" />
+    <MESSAGE value="add new component" />
+    <MESSAGE value="add auth section" />
+    <MESSAGE value="add auth changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add auth changes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
